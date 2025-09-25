@@ -95,32 +95,6 @@ footer {
   margin-top: 20px;
 }
 
-.card {
-  background: white;
-  border-radius: 12px;
-  padding: 20px;
-  margin: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-  text-align: center;
-}
-
-.card img {
-  display: block;
-  margin: 0 auto 10px auto;
-  border-radius: 8px;
-}
-
-.card:hover {
-  transform: scale(1.05);
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -132,3 +106,4 @@ footer {
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
+
